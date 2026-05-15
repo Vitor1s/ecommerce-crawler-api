@@ -2,6 +2,8 @@
 
 Monorepo em **Go** para um teste técnico em duas partes: **crawler HTTP** (catálogo de livros) e **API REST** (notebooks Lenovo no site de testes do Web Scraper). Não há automação de navegador — apenas `net/http` e parsing de HTML.
 
+**Por que Go:** decidi usar Go porque gosto da linguagem e acho o funcionamento dela **interessante para esse tipo de tarefa** — binário simples de distribuir, biblioteca padrão sólida para HTTP/JSON e um modelo de concorrência claro quando a coleta precisar evoluir sem stack pesada para crawlers e APIs pequenas. **Node.js** também seria uma escolha muito bacana para o mesmo desafio (Fetch/Axios, `cheerio`/`node-html-parser`, Express/Fastify): o enunciado permitia as duas stacks; foquei em Go por preferência pessoal neste repo.
+
 ## Estrutura do repositório
 
 ```
