@@ -2,8 +2,3 @@
 books.json
 books.json.tmp
 
-# Binários locais após `go build` (nomes usuais neste repo)
-books-crawler
-lenovo-api
-*.exe
-
